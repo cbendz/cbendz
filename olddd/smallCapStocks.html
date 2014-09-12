@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    
+<html>
+    <head>
+        <title>Small Cap Stock</title>
+        <meta name="author" content="Carla Bendezu"/>      
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <form name="formOne">
+            <table width="80%" border="1" cellspacing="1" align="center">
+                <tr id="backgroundOne">
+                    <td align="center" height="50"><b>Stock Name</b></td>
+                    <td align="center"><b>Currently Owned Shares</b></td>
+                    <td align="center"><b>Price per Share</b></td>
+                    <td align="center"><b>Total Value</b></td>
+                    <td align="center" width="2%"><b> </b></td>
+                    <td align="center"><b>Action</b></td>
+                    <td align="center"><b>Quantity</b></td>
+                    <td align="center"><b> </b></td>
+                </tr>
+                <tr id="backgroundTwo">
+                    <td align="left" height="30">CIBER Inc &#40;CBR&#41;</td>
+                    <td align="center">20</td>
+                    <td align="center">&#36;8.60</td>
+                    <td align="center">&#36;206.4.00</td>
+                    <td> </td>
+                    <td align="center">
+                        <select name="mydropdown">
+                            <option value=""> </option>
+                            <option value="1">Buy</option>
+                            <option value="0">Sell</option>
+                        </select>
+                    </td>
+                    <td align="center"><input type="text" size="5" name="qnty"/></td>
+                    <td><button type="button">Make Transaction</button></td>
+                </tr>
+                <tr id="backgroundTwo">
+                    <td align="left" height="30">NewMarket Technology INC &#40;NMKT.OB&#41;</td>
+                    <td align="center">7</td>
+                    <td align="center">&#36;37.4</td>
+                    <td align="center">&#36;261.8</td>
+                    <td> </td>
+                    <td align="center">
+                        <select name="mydropdown">
+                            <option value=""> </option>
+                            <option value="1">Buy</option>
+                            <option value="0">Sell</option>
+                        </select>
+                    </td>
+                    <td align="center"><input type="text" size="5" name="qnty"/></td>
+                    <td><button type="button">Make Transaction</button></td>
+                </tr>
+                <tr id="backgroundOne">
+                    
+                    <td colspan = "6" align="left" height="30">
+                        <p><b>User:</b></p>
+                    </td>
+                    <td colspan = "2" align="center" height="30">
+                        <a href="http://webpages.uncc.edu/~cbendezu/technologyStocks.html" align="center" style="color: rgb(255,255,255)">&#91;<u>Categories</u>&#93;</a>
+                        <a href="http://webpages.uncc.edu/~cbendezu/userLogin.html" align="center" style="color: rgb(255,255,255)">&#91;<u>Log Out</u>&#93;</a>
+                    </td>  
+            </table>
+        </form>
+    </body>
+</html>
