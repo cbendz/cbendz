@@ -13,8 +13,8 @@ html{
 
 #container {
 	background: transparent; 
-        max-width:1200px;	
-	min-width:1200px;
+        max-width:1000px;	
+	min-width:1000px;
 	margin: auto;
            div{ 
                 font-family: Serif, Oldtown, fantasy;
